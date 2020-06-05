@@ -1,5 +1,8 @@
 server/node_modules
 server/package-lock.json
 server/tsconfig.json
+server/src/database/database.sqlite
+server/src/database/database.sqlite-journal
+
 web/node_modules
 web/yarn.lock
