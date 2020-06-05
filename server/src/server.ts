@@ -2,8 +2,15 @@ import express from 'express';
 
 const app = express();
 
-app.get('/users', () => {
-  console.log("Listagem de usuários");
-})
+app.get('/users', (request, response) => {
+  console.log('Listagem de usuários');
 
-app.listen(3333);
+  response.json([
+    'Diego',
+    'Cleiton',
+    'Robson',
+    'Daniel'
+  ]);
+});
+
+app.listen(3000);
