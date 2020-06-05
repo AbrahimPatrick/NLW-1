@@ -1,3 +1,5 @@
 server/node_modules
 server/package-lock.json
 server/tsconfig.json
+web/node_modules
+web/yarn.lock
